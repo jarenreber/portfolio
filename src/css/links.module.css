@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+}
+
+.icon {
+    background-color: var(--blue-color);
+    width: 50vw;
+    height: 50vh;
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+    color:azure;
+}
+
+.text {
+    color: var(--gray-color);
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.text h1 {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.text p {
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+}

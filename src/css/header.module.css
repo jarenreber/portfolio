@@ -1,0 +1,37 @@
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .main {
+    background-image: url('../images/home-hero.jpg');
+    
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .nameBox {
+    background: rgba(255,255,255,.8);
+    padding: 5rem;
+    color: var(--darkest-blue);
+    text-align: right;
+  }
+  
+  .nameBox h1 {
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-family: var(--primary-font);
+    font-weight: 300;
+  }
+  
+  .nameBox h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font)
+  }
