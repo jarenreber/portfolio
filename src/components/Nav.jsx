@@ -56,7 +56,7 @@ const Nav = () => {
         </li>
         <li className={navStyles.navList}>
           <Link
-            to="link"
+            to="links"
             spy={true}
             smooth={true}
             offset={-70}

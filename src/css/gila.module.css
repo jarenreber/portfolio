@@ -26,10 +26,11 @@
 }
 
 .video {
-    min-width: 50vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--orange);
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
 }

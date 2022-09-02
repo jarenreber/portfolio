@@ -44,8 +44,9 @@
 
 .image {
     background-color: var(--blue-color);
-    min-width: 50vw;
-    height: 50vh;
+    width: 50vw;
+    height: auto;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;

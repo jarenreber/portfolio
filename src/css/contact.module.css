@@ -27,12 +27,13 @@
 }
 
 .icon {
-    min-width: 50vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--green);
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
     margin-left: auto;
     margin-right: 0;
     font-size: 17rem;
