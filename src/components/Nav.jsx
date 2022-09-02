@@ -12,7 +12,7 @@ const Nav = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
           >
             Projects
@@ -23,7 +23,7 @@ const Nav = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
             className={navStyles.navAnchor}
           >
@@ -35,7 +35,7 @@ const Nav = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
             className={navStyles.navAnchor}
           >
@@ -47,7 +47,7 @@ const Nav = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
             className={navStyles.navAnchor}
           >
@@ -59,7 +59,7 @@ const Nav = () => {
             to="links"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
             className={navStyles.navAnchor}
           >

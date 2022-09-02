@@ -12,6 +12,7 @@
     align-items: center;
     font-size: 15rem;
     color:azure;
+    min-width: 50vw;
 }
 
 .text {

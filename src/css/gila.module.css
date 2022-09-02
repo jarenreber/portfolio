@@ -27,6 +27,7 @@
 
 .video {
     width: 50vw;
+    min-width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
