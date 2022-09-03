@@ -17,9 +17,11 @@
 
 .text {
     color: var(--gray-color);
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
 }
 
 .text h1 {

@@ -1,7 +1,7 @@
 {
-  "short_name": "Jaren's Portfolio",
-  "name": "Jaren Reber's Web Development Portfolio",
-  "start_url": ".",
+  "short_name": "Portfolio for Jaren",
+  "name": "Web Development Portfolio for Jaren Reber",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
