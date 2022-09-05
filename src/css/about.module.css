@@ -40,3 +40,32 @@
     font-size: 2rem;
     font-family: var(--secondary-font);
 }
+
+@media (max-width: 1300px) {
+    .text {
+        padding: 4rem;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.5rem;
+    }
+
+    .aboutHero {
+        height: 300px;
+        width: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .photo {
+        width: 100vw;
+    }
+}

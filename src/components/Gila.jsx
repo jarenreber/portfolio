@@ -15,8 +15,8 @@ const Gila = () => {
       </div>
       <div className={gila.video}>
         <iframe
-          width="560"
-          height="315"
+          // width="560"
+          // height="315"
           src="https://www.youtube.com/embed/kvPfzmhB8Ec"
           title="YouTube video player"
           frameBorder="0"

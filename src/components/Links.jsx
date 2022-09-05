@@ -11,7 +11,7 @@ const Links = () => {
       </div>
       <div className={links.text}>
         <h1>Links</h1>
-        <p>
+        <div>
           <a
             className={links.anchor}
             href="https://github.com/jarenreber"
@@ -30,7 +30,7 @@ const Links = () => {
             <AiFillLinkedin className={links.links} />
             <p>LinkedIn</p>
           </a>
-        </p>
+        </div>
       </div>
     </div>
   );

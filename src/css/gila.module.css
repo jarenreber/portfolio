@@ -35,3 +35,37 @@
     height: auto;
     min-height: 50vh;
 }
+
+.video iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 1300px) {
+    .text {
+        padding: 4rem;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.5rem;
+    }
+
+    .video iframe {
+        width: 373.33px;
+        height: 210px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+    
+    .video {
+        width: 100vw;
+    }
+}

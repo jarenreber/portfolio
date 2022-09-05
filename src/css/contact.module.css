@@ -39,3 +39,31 @@
     font-size: 17rem;
     color:azure; 
 }
+
+@media (max-width: 1300px) {
+    .text {
+        padding: 4rem;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.25rem;
+    }
+
+    .icon {
+        font-size: 11rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .icon {
+        width: 100vw;
+    }
+}

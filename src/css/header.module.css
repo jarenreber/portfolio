@@ -29,3 +29,35 @@
     font-weight: 400;
     font-family: var(--secondary-font)
   }
+
+  
+  @media (max-width: 1300px) {
+    .main {
+      /* justify-content: center;
+      align-items: center; */
+      height: 100vh;
+      width: 100vw;
+    }
+    .nameBox {
+      padding: 3rem;
+    }
+
+    .nameBox h1 {
+      font-size: 3rem;
+    }
+
+    .nameBox h2 {
+      font-size: 2rem;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+    .nameBox h1 {
+      font-size: 2rem;
+    }
+
+    .nameBox h2 {
+      font-size: 1.5rem;
+    }
+  }
