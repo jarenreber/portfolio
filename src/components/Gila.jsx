@@ -8,9 +8,9 @@ const Gila = () => {
         <h1>Gila Outdoors</h1>
         <p>
           Gila Outdoors was the foundations capstone made during my time at
-          Devmountain. This app is built with JavaScript, HTML, and CSS. It is a
-          full stack app made for tracking mountain bike trails and calls an API
-          to get the trails based off of a latitude and longitude.
+          Devmountain. It is a full stack app made for tracking mountain bike
+          trails and calls an API to get the trails based off of a latitude and
+          longitude. This app is built with JavaScript, HTML, and CSS.
         </p>
       </div>
       <div className={gila.video}>

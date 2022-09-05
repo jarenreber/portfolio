@@ -8,11 +8,17 @@ const Contact = () => {
       <div className={contact.text}>
         <h1>Contact</h1>
         <p>
-          Email: rbrjaren@gmail.com
+          Email: <a href="mailto:rbrjaren@gmail.com">rbrjaren@gmail.com</a>
           <br />
           Or message me on Linked In:
           <br />
-          https://www.linkedin.com/in/jaren-reber-web-developer/
+          <a
+            href="https://www.linkedin.com/in/jaren-reber-web-developer/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            https://www.linkedin.com/in/jaren-reber-web-developer/
+          </a>
         </p>
       </div>
       <div className={contact.icon}>
